@@ -1,0 +1,182 @@
+:root {
+    --BackgroundColor:#28293E;
+    --white: #ffffff; 
+    --orange: #EF6D58;
+    --purple:#B550F8;
+  }
+.a{
+    border: 4px solid rgb(255, 0, 0);
+}
+.b{
+    width: 50%;
+}
+
+.logo-container {
+    position: relative;
+ 
+  }
+  
+  .logo-container svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .logo-container span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+  }
+  .horizontal-line{width: 100%; color: #818181;}
+  
+.page{background-color:var(--BackgroundColor) !important;}
+.navbar {
+    background-color:var(--BackgroundColor) !important;
+
+}
+.first-section{
+    background-color:var(--BackgroundColor) !important;
+}
+.navbar-brand{
+    color: var(--white);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+
+}
+.nav-link{
+    color: var(--white);
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+}
+.navbar-all-items .contact-button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(212, 212, 212);
+}
+.contact-button{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+}
+div.maincontent-leftsection > *{
+    font-family: 'Epilogue', sans-serif !important;
+    margin-top: 7px;
+}
+.maincontent-button{ background-color:var(--orange);color: white;}
+.contactme-mainsection{text-decoration: none;color: white;}
+.maincontent-heading{font-weight: 400;color:var(--orange);}
+.maincontent-subheading{font-weight: 800;color: white;}
+.maincontent-description{font-weight: 400; color: #b4b4b4; }
+.maincontent-image{width:70%;}
+div.maincontent-second-leftsection > *{
+    font-family: 'Epilogue', sans-serif !important;
+    margin-top: 7px;
+}
+.maincontent-second-leftsection-heading{color:var(--orange);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+    letter-spacing: 3px;
+ }
+.maincontent-second-leftsection-subheading{color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* H2 */
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 800;
+     letter-spacing: -1px;}
+.maincontent-second-leftsection-readmore{color: white;
+ 
+  }
+.svg-couter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .svg-container {
+    position: relative;
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+  }
+
+  .svg-container svg {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+  }
+.second-card{
+    background-color: transparent !important;
+}
+.second-card .card-body .card-title{
+color: white;
+}
+.second-card .card-body .card-text{
+    color: rgb(177, 177, 177);
+    }
+    .second-card{
+        border: 1px solid rgb(129, 129, 129);
+        align-self: flex-end;
+    }
+    .maincontent-right-leftsection-heading{color: var(--orange);}
+.maincontent-right-leftsection-subheading{color: var(--white);}
+  .maincontent-right-leftsection-sub-subheading{color: var(--white);}
+  .maincontent-right-leftsection-paragrapgh{color: rgb(148, 148, 148)}
+  .maincontent-third-leftsection-button{ 
+    color: var(--white);
+    background-color: var(--purple);}
+.maincontent-fourth-section-heading{
+    color: var(--orange);
+}.maincontent-fourth-section-subheading{
+    color: var(--white);
+}
+
+.maincontent-thirdsectionleftImage{
+    width: 100%;
+    height: 100%;
+}
+.maincontent-fourth-section{
+    margin-top: 40px;
+}
+div.maincontent-sixth-rightsection > * {
+    font-family: 'Epilogue', sans-serif;
+
+}
+.maincontent-sixth-rightsection-heading{
+    color: var(--orange);
+}
+.maincontent-sixth-rightsection-subheading{
+    color: black
+}
+.maincontent-sixth-rightsection-description{
+    color: rgb(156, 156, 156) 
+}
+.maincontent-sixth-section{
+    background-color: #FDF0E9;
+
+    padding-top: 50px;
+
+}
+.maincontent-seven-section{
+    margin: 5px;
+}
+.maincontent-seven-sectionboxes{
+color:#391400;
+}
+div.maincontent-seven-section >*{
+    border:1px solid #e29267;
+    padding-top: 50px;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+.maincontent-seven-sectionboxes h1{
+    font-family: 'Epilogue', sans-serif;
+}
+.ordered-list{
+    color: #391400;
+}
