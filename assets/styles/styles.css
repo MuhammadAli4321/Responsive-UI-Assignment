@@ -247,12 +247,13 @@ div.statistics-section>*{
   }
   .mywork-section-orderedlist-listitems::before {
     content: counter(my-counter);
-    font-size: 44px; /* Adjust the value as per your preference */
+    font-size: 54px; /* Adjust the value as per your preference */
     position: absolute;
     left: -30px; /* Adjust the position as needed */
     top: 50%;
     transform: translateY(-50%);
     color: var(--darkbrown);
+    font-family: BoldText;
   }
   .mywork-section-orderedlist-listitems .list-text{
     display: flex;
@@ -260,6 +261,7 @@ div.statistics-section>*{
     padding-left: 20px;
     font-family: ExtraBoldText;
     color: var(--darkbrown);
+    font-weight: bolder !important;
 }
 
 
@@ -339,6 +341,10 @@ div.statistics-section>*{
 
 
   /* About US Section */
+  .about-us-section{
+    margin-bottom: 10px;
+    margin-top: 120px;
+  }
 .about-us-section-image{
     width: 100%;
     height: 100%;
@@ -480,7 +486,8 @@ width: 100px;
 /* FAQS Section */
 .faqs-section{
     background-color:#FDF0E9;
-    padding-top: 200px;
+    padding-top: 250px ;
+    padding-bottom: 250px;
 }
 .accordion-button:focus{
     box-shadow: none;
@@ -628,6 +635,10 @@ border-radius: 10px;
 .contactus-form-input-group{
     width: 80%;
 }
+.contactus-form-messageinput{
+    resize: none;
+    height: 150px;
+}
 .contactus-form-submit-button{
     background-color: var(--orange);
     color: white;
@@ -664,7 +675,8 @@ border-radius: 10px;
 
 .build-dream-section{
     background-color: var(--orange);
-    padding-top: 70px;
+    margin-top: 200px;
+    padding-top: 80px;
     padding-bottom: 70px;
 }
 .build-dream-section-description{
@@ -728,7 +740,12 @@ padding-top: 80px;
       justify-content: center;
       align-items: center;
     }
-
+/* 
+In this context, it means that the styles specified inside 
+the media query will apply when the screen width is 500 pixels 
+or less. If the screen width is greater than 500 pixels, 
+the styles inside the media query will not be applied.
+*/
   }
   
 
