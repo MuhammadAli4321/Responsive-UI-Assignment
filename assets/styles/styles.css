@@ -30,13 +30,8 @@
         font-family: LightText;
         src: url('../fonts/Epilogue/static/Epilogue-Light.ttf');
       }
-.a{
-    border: 4px solid rgb(255, 0, 0);
-}
-.b{
-    width: 50%;
-}
 
+      /* UI Section CSS Starts from here */
 /* Navbar Section */
 .navbartext-handler .navbar-toggler{
 border: 1px solid rgb(173, 173, 173) !important;
@@ -267,13 +262,13 @@ div.statistics-section>*{
 
 /*  Portfolio Section starts from here */
 .portfolio-section {
-    height: 500px;
+    height: 386px;
 }
   .portfolio-section-heading{
     color: var(--orange);
     font-family:Text_Light_Accent !important;
   }
-
+.border-class{border: 1px solid var(--BackgroundColor);}
   .portfolio-section-subheading{
     font-family: ExtraBoldText !important;
   }
@@ -288,7 +283,7 @@ div.statistics-section>*{
 
 }
 .portfolio-section-cards {
-    margin-top:-300px;
+    margin-top:-100px;
 
 }
 .portfolio-exploremore-button{
@@ -367,10 +362,16 @@ div.statistics-section>*{
 }
 
 /* testimonials section */
+#testimonials-section{
+    background-color: var(--BackgroundColor);   
+}
 
+body{
+    background-color: var(--BackgroundColor);
+}
 .testimonials-section-heading{
 color: var(--orange);
-font-family: Text_Light_Accent;
+font-family:ExtraBoldText ;
 font-weight: 400;
 }
 .testimonials-section-subheading{
@@ -387,6 +388,7 @@ font-weight: 400;
 
 .pricing-section{
     background-color: var(--lightyellow);
+    margin-top: -70px;
 }
 
 .pricing-seeall-button{
@@ -489,6 +491,19 @@ width: 100px;
     padding-top: 250px ;
     padding-bottom: 250px;
 }
+
+/* .accordion-button.collapsed::after {
+
+    background: url("/assets/images/arrow-down-circle-fill.png");
+    
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+  
+    background: url("your.svg");
+  
+  } */
+
 .accordion-button:focus{
     box-shadow: none;
 }
@@ -608,9 +623,10 @@ border-radius: 10px;
  
 }
 .newslettersection-inputemail-box{
-    height: 50px;
+    height: 60px;
     width: 60%;
     border-radius: 10px;
+    padding-left: 45px;
 }
 .horizontal-line-newslettersection{
     width: 100%; color: #818181;
@@ -673,7 +689,7 @@ border-radius: 10px;
 
 /*  Build Dream Project */
 
-.build-dream-section{
+#build-dream-section{
     background-color: var(--orange);
     margin-top: 200px;
     padding-top: 80px;
@@ -700,13 +716,14 @@ padding-top: 80px;
 
 /*  Footer section */
 
-.footer-section{
-    background-color:hsl(21, 83%, 95%);
-    padding-top: 50px;
+#footer-section{
+    background-color:hsl(21, 83%, 95%) ;
+    padding-top: 100px;
     padding-bottom: 50px;
- 
+
    
 }
+.a{border: 1px solid red;}
 .footer-contact-icons{
     opacity: 0.8;
     width: 50px;
